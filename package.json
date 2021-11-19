@@ -1,0 +1,25 @@
+{
+  "name": "indexdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc db.ts  --target es6 --outDir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiDengHui/indexDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiDengHui/indexDB/issues"
+  },
+  "homepage": "https://github.com/LiDengHui/indexDB#readme",
+  "dependencies": {
+    "typescript": "^4.5.2",
+    "typescript-cli": "^0.1.0"
+  }
+}

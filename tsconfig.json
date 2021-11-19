@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "esnext",
+    "sourceMap": true,
+    "lib": ["esnext", "dom"],
+    "dist":"./dist"
+  },
+}
